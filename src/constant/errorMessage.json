@@ -1,0 +1,9 @@
+{
+    "mandatory":{
+        "key":"key is mandatory!",
+        "value": "value is mandatory"
+    },
+    "type":{
+        "key":"key should be string"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "port":8000,
+    "server_error":"unexpected internal server error, try after some time!",
+    "cache_limit":50
+}

@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  FC-cache:
+    build: . 
+    restart: on-failure
+    container_name: FC-cache-container
+    environment:
+      MONGO_URI: uri
+    ports:
+      - "8000:8000"
